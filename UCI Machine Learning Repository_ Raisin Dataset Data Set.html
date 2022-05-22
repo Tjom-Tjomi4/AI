@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://archive.ics.uci.edu/ml/datasets/Raisin+Dataset -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>UCI Machine Learning Repository: Raisin Dataset Data Set</title>
+
+<!-- Stylesheet link -->
+<link rel="stylesheet" type="text/css" href="./UCI Machine Learning Repository_ Raisin Dataset Data Set_files/ml.css">
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function checkform ( form )
+{
+  // see http://www.thesitewizard.com/archive/validation.shtml
+  // for an explanation of this script and how to use it on your
+  // own website
+
+  // ** START **
+  if (form.q.value == "")
+  {
+    alert( "Please enter search terms." );
+    form.q.focus();
+    return false ;
+  }
+
+  if (getCheckedValue(form.sitesearch) == "ics.uci.edu" && form.q.value.indexOf("site:archive.ics.uci.edu/ml") == -1)
+  {
+    form.q.value = form.q.value + " site:archive.ics.uci.edu/ml";
+  }
+
+  // ** END **
+  return true ;
+}
+
+// return the value of the radio button that is checked
+// return an empty string if none are checked, or
+// there are no radio buttons
+function getCheckedValue(radioObj) {
+	if(!radioObj)
+		return "";
+	var radioLength = radioObj.length;
+	if(radioLength == undefined)
+		if(radioObj.checked)
+			return radioObj.value;
+		else
+			return "";
+	for(var i = 0; i < radioLength; i++) {
+		if(radioObj[i].checked) {
+			return radioObj[i].value;
+		}
+	}
+	return "";
+}
+//-->
+</script>
+
+</head>
+
+<body>
+
+
+<!-- SITE HEADER (INCLUDES LOGO AND SEARCH BOX) -->
+
+<table width="100%" bgcolor="#003366">
+<tbody><tr>
+	<td>
+		<span class="normal"><a href="https://archive.ics.uci.edu/ml/index.html" alt="Home"><img src="./UCI Machine Learning Repository_ Raisin Dataset Data Set_files/logo.gif" border="0"></a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://cml.ics.uci.edu/"><font color="FFDD33">Center for Machine Learning and Intelligent Systems</font></a></span>
+	</td>
+	<td width="100%" valign="top" align="right">
+		<span class="whitetext">
+		<a href="https://archive.ics.uci.edu/ml/about.html">About</a>&nbsp;
+		<a href="https://archive.ics.uci.edu/ml/citation_policy.html">Citation Policy</a>&nbsp;
+		<a href="https://archive.ics.uci.edu/ml/donation_policy.html">Donate a Data Set</a>&nbsp;
+		<a href="https://archive.ics.uci.edu/ml/contact.html">Contact</a>
+		</span>
+
+		<br>
+		<br>
+		<!-- Search Google -->
+
+		<form method="GET" action="https://www.google.com/custom" onsubmit="return checkform(this);">
+		<input type="text" name="q" size="30" maxlength="255" value="">
+		<input type="submit" name="sa" value="Search">
+		<input type="hidden" name="cof" value="AH:center;LH:130;L:http://archive.ics.uci.edu/assets/logo.gif;LW:384;AWFID:869c0b2eaa8d518e;">
+		<input type="hidden" name="domains" value="ics.uci.edu">
+		<br>
+		<input type="radio" name="sitesearch" value="ics.uci.edu" checked=""> <span class="whitetext"><font size="1">Repository</font></span>
+		<input type="radio" name="sitesearch" value=""> <span class="whitetext"><font size="1">Web</font></span>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://www.google.com/search"><img src="./UCI Machine Learning Repository_ Raisin Dataset Data Set_files/Logo_25blk.gif" border="0" alt="Google" align="middle" height="27"></a>
+		<br>
+		</form>
+		<!-- Search Google -->
+
+
+		<span class="whitetext"><a href="https://archive.ics.uci.edu/ml/datasets.php"><font size="3" color="#FFDD33"><b>View
+ALL Data Sets</b></font></a></span>
+		<br>
+	</td>
+</tr>
+</tbody></table>
+
+
+<br>
+
+<div style="background-color:#6E4100; color:white; padding:20px; margin-bottom:8px">
+	  <span onclick="this.parentElement.style.display=&#39;none&#39;;" style="float:right; cursor:pointer; margin-left: 8px; font-size:x-large; line-height:16px"><strong>×</strong></span>
+	  Check out the <a target="_blank" href="https://archive-beta.ics.uci.edu/" style="color:white">beta version</a> of the new UCI Machine Learning Repository we are currently testing! <a target="_blank" href="https://archive-beta.ics.uci.edu/ml/contact" style="color:white">Contact us</a> if you have any issues, questions, or concerns. <a target="_blank" href="https://archive-beta.ics.uci.edu/" style="color:white">Click here to try out the new site</a>.
+</div>
+
+<table width="100%" border="0" cellpadding="2"><tbody><tr><td>
+
+   <table><tbody><tr>
+     <td valign="top">
+	<p>
+	<span class="heading"><b>Raisin Dataset Data Set</b></span>
+	<br><span class="normal"><i><font size="4">Download</font></i>: <a href="https://archive.ics.uci.edu/ml/machine-learning-databases/00617/"><font style="BACKGROUND-COLOR: #FFFFAA" size="4">Data Folder</font></a>, <a href="https://archive.ics.uci.edu/ml/datasets/Raisin+Dataset#"><font style="BACKGROUND-COLOR: #FFFFAA" size="4">Data Set Description</font></a></span></p>
+
+	<p class="normal"><b>Abstract</b>: Images of the Kecimen and Besni raisin varieties were obtained with CVS. A total of 900 raisins were used, including 450 from both varieties, and 7 morphological features were extracted.</p>
+     </td>
+     <td> </td>
+   </tr></tbody></table>
+
+<table border="1" cellpadding="6">
+	<tbody><tr>
+		<td bgcolor="#DDEEFF"><p class="normal"><b>Data Set Characteristics:&nbsp;&nbsp;</b></p></td>
+		<td><p class="normal">Multivariate</p></td>
+		<td bgcolor="#DDEEFF"><p class="normal"><b>Number of Instances:</b></p></td>
+		<td><p class="normal">900</p></td>
+		<td bgcolor="#DDEEFF"><p class="normal"><b>Area:</b></p></td>
+		<td><p class="normal">Life</p></td>
+	</tr>
+
+	<tr>
+		<td bgcolor="#DDEEFF"><p class="normal"><b>Attribute Characteristics:</b></p></td>
+		<td><p class="normal">Integer, Real</p></td>
+		<td bgcolor="#DDEEFF"><p class="normal"><b>Number of Attributes:</b></p></td>
+		<td><p class="normal">8</p></td>
+		<td bgcolor="#DDEEFF"><p class="normal"><b>Date Donated</b></p></td>
+		<td><p class="normal">2021-04-01</p></td>
+	</tr>
+	<tr>
+		<td bgcolor="#DDEEFF"><p class="normal"><b>Associated Tasks:</b></p></td>
+		<td><p class="normal">Classification</p></td>
+		<td bgcolor="#DDEEFF"><p class="normal"><b>Missing Values?</b></p></td>
+		<td><p class="normal">N/A</p></td>
+		<td bgcolor="#DDEEFF"><p class="normal"><b>Number of Web Hits:</b></p></td>
+		<td><p class="normal">1302078</p></td>
+	</tr>
+	<!--
+	<tr>
+
+		<td bgcolor="#DDEEFF"><p class="normal"><b>Highest Percentage Achieved:&nbsp;&nbsp;</b></p></td>
+		<td><p class="normal">N/A</p></td>
+	</tr>
+	-->
+</tbody></table>
+
+
+<br>
+
+<p class="small-heading"><b>Source:</b></p>
+<p class="normal">Ilkay CINAR
+<br>Faculty of Technology,
+<br>Selcuk University, Konya, TURKEY.
+<br>ORCID ID : 0000-0003-0611-3316
+<br><u>ilkay.cinar <b>'@'</b> selcuk.edu.tr</u>
+<br>
+<br>Murat KOKLU
+<br>Faculty of Technology,
+<br>Selcuk University, Konya, TURKEY.
+<br>ORCID ID : 0000-0002-2737-2360
+<br><u>mkoklu <b>'@'</b> selcuk.edu.tr</u>
+<br>
+<br>Sakir TASDEMIR
+<br>Faculty of Technology,
+<br>Selcuk University, Konya, TURKEY.
+<br>ORCID ID : 0000-0002-2433-246X
+<br><u>stasdemir <b>'@'</b> selcuk.edu.tr</u></p>
+
+<br>
+
+<p class="small-heading"><b>Data Set Information:</b></p>
+<p class="normal">Images of Kecimen and Besni raisin varieties grown in Turkey were obtained with CVS. A total of 900 raisin grains were used, including 450 pieces from both varieties. These images were subjected to various stages of pre-processing and 7 morphological features were extracted. These features have been classified using three different artificial intelligence techniques.</p>
+
+<br>
+
+<p class="small-heading"><b>Attribute Information:</b></p>
+<p class="normal">1.) Area: Gives the number of pixels within the boundaries of the raisin. 
+<br>2.) Perimeter: It measures the environment by calculating the distance between the boundaries of the raisin and the pixels around it.
+<br>3.) MajorAxisLength: Gives the length of the main axis, which is the longest line that can be drawn on the raisin.
+<br>4.) MinorAxisLength: Gives the length of the small axis, which is the shortest line that can be drawn on the raisin.
+<br>5.) Eccentricity: It gives a measure of the eccentricity of the ellipse, which has the same moments as raisins. 
+<br>6.) ConvexArea: Gives the number of pixels of the smallest convex shell of the region formed by the raisin.
+<br>7.) Extent: Gives the ratio of the region formed by the raisin to the total pixels in the bounding box.
+<br>8.) Class: Kecimen and Besni raisin.</p>
+
+<br>
+
+<p class="small-heading"><b>Relevant Papers:</b></p>
+<p class="normal">CINAR I., KOKLU M. and TASDEMIR S., (2020), Classification of Raisin Grains Using Machine Vision and Artificial Intelligence Methods. Gazi Journal of Engineering Sciences, vol. 6, no. 3, pp. 200-209, December, 2020.  DOI: <a href="https://doi.org/10.30855/gmbd.2020.03.03">[Web Link]</a>
+<br></p>
+
+<br>
+
+
+<!-- OLD CODE:
+
+<p class="small-heading"><b>Papers That Cite This Data Set<sup>1</sup>:</b></p>
+<img src="../assets/rexa.jpg" />
+<p class="normal">N/A</p>
+
+-->
+
+
+
+<br>
+
+<p class="small-heading"><b>Citation Request:</b></p>
+<p class="normal">CINAR I., KOKLU M. and TASDEMIR S., (2020), Classification of Raisin Grains Using Machine Vision and Artificial Intelligence Methods. Gazi Journal of Engineering Sciences, vol. 6, no. 3, pp. 200-209, December, 2020.  DOI: <a href="https://doi.org/10.30855/gmbd.2020.03.03">[Web Link]</a>
+<br></p>
+
+</td></tr></tbody></table>
+
+
+<hr>
+
+<!-- OLD CODE:
+<p class="normal"><font size=1>[1] Papers were automatically harvested and associated with this data set, in collaboration with <a href="http://rexa.info"><font size=1>Rexa.info</font></a></font></p>
+-->
+
+
+
+<table cellpadding="5" align="center"><tbody><tr valign="center">
+		<td><p class="normal">Supported By:</p></td>
+        <td><img src="./UCI Machine Learning Repository_ Raisin Dataset Data Set_files/nsfe.gif" height="60"> </td>
+        <td><p class="normal">&nbsp;In Collaboration With:</p></td>
+        <td><img src="./UCI Machine Learning Repository_ Raisin Dataset Data Set_files/rexaSmall.jpg"></td>
+</tr></tbody></table>
+
+<center>
+<span class="normal">
+<a href="https://archive.ics.uci.edu/ml/about.html">About</a>&nbsp;&nbsp;||&nbsp;
+<a href="https://archive.ics.uci.edu/ml/citation_policy.html">Citation Policy</a>&nbsp;&nbsp;||&nbsp;
+<a href="https://archive.ics.uci.edu/ml/donation_policy.html">Donation Policy</a>&nbsp;&nbsp;||&nbsp;
+<a href="https://archive.ics.uci.edu/ml/contact.html">Contact</a>&nbsp;&nbsp;||&nbsp;
+<a href="http://cml.ics.uci.edu/">CML</a>
+</span>
+</center>
+
+
+
+
+
+
+</body></html>
